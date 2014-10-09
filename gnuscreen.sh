@@ -11,7 +11,7 @@
 DIR=`dirname $0`;
 PLATFORM=`uname -m`
 RELEASE=`uname -r | cut -d- -f1`
-URL="ftp://ftp.freebsd.org/pub/FreeBSD/ports/${PLATFORM}/packages-9.1-release/All"
+URL="ftp://ftp.freebsd.org/pub/FreeBSD/ports/${PLATFORM}/packages-9.2-release/All"
 GNUSCREENFILE="screen-4.0.3_14.tbz"
 #----------------------- Set Errors ---------------------------------------------------------------------
 _msg() { case $@ in
